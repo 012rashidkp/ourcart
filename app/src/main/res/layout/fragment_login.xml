@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".Fragments.LoginFragment">
+
+    <LinearLayout
+        android:id="@+id/logo_linear"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:background="@drawable/logo_design"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:elevation="15dp"
+        >
+<ImageView
+    android:layout_width="135dp"
+    android:layout_height="135dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:src="@drawable/ic_baseline_shopping_cart_24"
+    android:layout_gravity="center_horizontal|center_vertical"
+    />
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/logo_linear"
+    android:orientation="vertical"
+    android:layout_marginTop="8dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Our Cart"
+        android:textStyle="bold"
+        android:textColor="@color/new_green"
+        android:textSize="28dp"
+        android:fontFamily="@font/dancin_regular"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        />
+
+<EditText
+    android:id="@+id/email_login_edit"
+    android:layout_width="250dp"
+    android:layout_height="50dp"
+    android:hint="Email Id"
+    android:drawableLeft="@drawable/ic_baseline_mail_outline_24"
+    android:drawableTint="@color/reddish_pink"
+    android:drawablePadding="6dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:inputType="textEmailAddress"
+    android:textColorHint="@color/reddish_pink"
+    android:layout_marginTop="15dp"
+    android:textColor="@color/reddish_pink"
+    android:background="@drawable/input_design"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal|center_vertical"
+    />
+    <EditText
+        android:id="@+id/email_password_edit"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:hint="Password"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:drawableTint="@color/reddish_pink"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:drawablePadding="6dp"
+        android:inputType="textPassword"
+        android:textColorHint="@color/reddish_pink"
+        android:layout_marginTop="18dp"
+        android:textColor="@color/reddish_pink"
+        android:background="@drawable/input_design"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal|center_vertical"
+        />
+<Button
+    android:id="@+id/loginbtn"
+    android:layout_width="180dp"
+    android:layout_height="50dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="15dp"
+    android:text="Login"
+    android:gravity="center_horizontal|center_vertical"
+    android:textAllCaps="false"
+    android:background="@drawable/login_btn_design"
+    android:textColor="@android:color/white"
+    android:textStyle="normal"/>
+<RadioButton
+    android:id="@+id/create_radio"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:text="You don't have an account please create"
+    android:textColor="@color/new_green"
+    android:layout_marginLeft="10dp"
+    android:textStyle="bold"
+    android:backgroundTint="@color/new_green"
+    android:buttonTint="@color/new_green"/>
+
+
+</LinearLayout>
+
+
+
+
+
+</RelativeLayout>

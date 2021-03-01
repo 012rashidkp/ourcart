@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#b00932</color>
+    <color name="colorAccent">#E91E58</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gen_black">#FFFFFF</color>
+    <color name="gen_white">#FFFFFF</color>
+    <color name="reddish_pink">#b00932</color>
+    <color name="grey_light">#E0E0E0</color>
+    <color name="new_green">#009673</color>
+    <color name="new_gray">#56999999</color>
+
+
+    <!-- Screens background color-->
+    <color name="bg_screen1">#43A047</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#FFB507</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#009673</color>
+
+    <!-- Placeholder colors-->
+    <color name="stay_color">#999999</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen1</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen1</item>
+    </array>
+
+
+
+</resources>
