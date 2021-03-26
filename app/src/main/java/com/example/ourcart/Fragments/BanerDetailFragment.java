@@ -12,12 +12,12 @@ import android.widget.TextView;
 import com.example.ourcart.R;
 
 
-public class SliderDetailFragment extends Fragment {
+public class BanerDetailFragment extends Fragment {
 private TextView textView_id;
 private String text_id;
 
 
-    public SliderDetailFragment() {
+    public BanerDetailFragment() {
 
     }
 

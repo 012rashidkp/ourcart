@@ -229,6 +229,7 @@ searchItems.add(item1);
                 search_btn.setImageResource(R.drawable.ic_baseline_search_24);
                 autoCompleteTextView.setText("");
                 search_edit.setVisibility(View.GONE);
+                toolbar.setTitle("OurCart");
               //  Toast.makeText(MainActivity.this, "id is "+id + " name is "+name, Toast.LENGTH_SHORT).show();
             }
         });

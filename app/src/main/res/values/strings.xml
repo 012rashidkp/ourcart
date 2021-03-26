@@ -80,4 +80,9 @@
     <string name="invalid_city">invalid city</string>
     <string name="prod_name">productname</string>
     <string name="prod_id">prodid</string>
+    <string name="Email">email</string>
+    <string name="UserName">username</string>
+    <string name="PhoneNumber">phone</string>
+    <string name="City">city</string>
+    <string name="Password">password</string>
 </resources>

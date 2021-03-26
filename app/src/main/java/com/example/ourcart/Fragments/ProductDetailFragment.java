@@ -44,7 +44,6 @@ public class ProductDetailFragment extends Fragment {
         prodid=getArguments().getString("prod_name");
         prod_Name.setText(prodname);
         prod_id.setText(prodid);
-
         return view;
 
     }

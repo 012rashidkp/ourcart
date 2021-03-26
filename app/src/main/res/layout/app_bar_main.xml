@@ -19,7 +19,7 @@
     </androidx.appcompat.widget.Toolbar>
    <ImageView
        android:id="@+id/cart_btn"
-       android:layout_width="40dp"
+       android:layout_width="36.5sp"
        android:layout_height="?actionBarSize"
        android:src="@drawable/ic_baseline_shopping_cart_24"
        android:layout_marginRight="15dp"
@@ -27,8 +27,8 @@
        app:tint="@android:color/white" />
     <ImageView
         android:id="@+id/search_btn"
-        android:layout_width="40dp"
-        android:layout_height="45dp"
+        android:layout_width="35.2dp"
+        android:layout_height="35.2dp"
         android:layout_centerVertical="true"
         android:src="@drawable/ic_baseline_search_24"
         android:layout_toLeftOf="@id/cart_btn"

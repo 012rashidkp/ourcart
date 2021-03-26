@@ -23,4 +23,7 @@
     <dimen name="text_size_medium">12dp</dimen>
     <dimen name="text_size_xmedium">14dp</dimen>
     <dimen name="text_size_large">16dp</dimen>
+    <dimen name="cat_measure">45dp</dimen>
+    <dimen name="card_top_margin">10dp</dimen>
+
 </resources>
